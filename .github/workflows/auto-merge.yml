@@ -1,7 +1,8 @@
 name: Auto merge
-on:
-  pull_request:
-    paths: ['.github/workflows/auto-merge.yml']
+# on:
+#   pull_request:
+#     paths: ['.github/workflows/auto-merge.yml']
+on: pull_request
 jobs:
   merge:
     if: ${{ github.actor == 'dependabot[bot]' }} # Dependabotのプルリクエストのみ
