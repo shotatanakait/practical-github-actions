@@ -3,9 +3,10 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
-version: 2
-updates:
-  - package-ecosystem: github-actions # See documentation for possible values # パッケージエコシステム
-    directory: / # Location of package manifests # パッケージマニフェストの配置先ディレクトリ
-    schedule: # バージョンアップスケジュール
-      interval: daily
+# 一旦停止
+# version: 2
+# updates:
+#   - package-ecosystem: github-actions # See documentation for possible values # パッケージエコシステム
+#     directory: / # Location of package manifests # パッケージマニフェストの配置先ディレクトリ
+#     schedule: # バージョンアップスケジュール
+#       interval: daily
